@@ -1,0 +1,22 @@
+name: CI Pipeline
+
+on:
+  push:name: CI Pipeline
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Verify repository
+        run: |
+          pwd
+          ls -la
