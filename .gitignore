@@ -1,0 +1,9 @@
+node_modules/
+.env
+*.pem
+terraform.tfstate
+terraform.tfstate.backup
+.terraform/
+*.tar
+minikube-linux-amd64
+.terraform/
