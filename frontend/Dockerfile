@@ -10,4 +10,6 @@ COPY . .
 
 EXPOSE 3000
 
+ENV BROWSER=none
+
 CMD ["npm", "start"]
